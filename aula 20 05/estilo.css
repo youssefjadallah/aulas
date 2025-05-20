@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background: #547f8f;
+background: linear-gradient(61deg,rgba(84, 127, 143, 1) 0%, rgba(192, 99, 87, 1) 31%, rgba(87, 104, 199, 1) 63%, rgba(237, 221, 83, 1) 100%) no-repeat;
+}
+
+div {
+    background-color: rgba(206, 206, 206,0.6);
+    color: rgb(0, 0, 0);
+}
+
+#teste1 {
+    background-color: rgb(44, 140, 224);
+}
+
+.titulo {
+    color: brown;
+}
+
+.avatar{
+    width: 280px;
+    border: 8px solid black;
+    border-radius: 10px;
+}
