@@ -1,0 +1,178 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F4EDE4;
+    color: #4B3832;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #4B3832;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos e subtítulos */
+h2, h3 {
+    color: #8B6F61;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Lista */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Bloco de conteúdo superior */
+.conteudo-topo {
+    background-color: #FFF8F0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Bloco de cada bebida */
+.bebida {
+    background-color: #FFF8F0;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Imagens */
+.bebida img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+}
+
+/* Título das bebidas */
+.bebida h3 {
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4B3832;
+    color: #FFFFFF;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #4B3832;
+    background-color: #F4EDE4;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8B6F61;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+p, li, footer {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnim 1.5s ease forwards;
+  }
+  
+  @keyframes fadeInAnim {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  a {
+    color: #8B6F61;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #4B3832;
+    text-decoration: underline;
+  }
+  
+  img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1, h2, h3 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h1::before, h2::before, h3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #8B6F61;
+    bottom: 0;
+    left: -100%;
+    animation: slideIn 1s forwards;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes slideIn {
+    to {
+      left: 0;
+    }
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  p, li {
+    font-size: 1.1rem;
+  }
+  
+  body {
+    max-width: 1300px;  /* ou 1100px, 1000px, como preferir */
+    margin: 0 auto;     /* centraliza horizontalmente */
+    padding: 20px;      /* mantém o espaçamento interno */
+  }
+  

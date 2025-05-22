@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Mim - Youssef</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <style>
+        body {
+            background-color: #F4EDE4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #4B3832;
+            padding: 20px;
+        }
+
+        .sobre-mim {
+            background-color: #FFF8F0;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 1000px;
+            margin: 0 auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+            /* fade-in */
+            opacity: 0;
+            animation: fadeInAnim 1.5s ease forwards;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #999;
+
+            /* fade-in */
+            opacity: 0;
+            animation: fadeInAnim 1.5s ease forwards;
+            animation-delay: 0.5s;
+            animation-fill-mode: forwards;
+        }
+
+        h1, h2 {
+            color: #8B6F61;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .destaque {
+            color: #4B3832;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li::before {
+            content: "☕ ";
+            margin-right: 8px;
+            color: #8B6F61;
+        }
+
+        .imagem-perfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        @keyframes fadeInAnim {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="sobre-mim fade-in">
+        <img src="img/perfil.jpg" alt="Foto de Youssef" class="imagem-perfil" />
+        <h1>Sobre Mim</h1>
+
+        <p>Olá! Meu nome é <span class="destaque">Youssef Ismail Ribeiro Jadallah</span>, tenho 16 anos e estou cursando o <span class="destaque">2º ano do Ensino Médio</span>, com especialização técnica em <span class="destaque">Informática</span>.</p>
+
+        <p>Sou uma pessoa curiosa, criativa e apaixonada por tecnologia. Desde pequeno me interesso por computadores, e agora estou aprendendo a desenvolver sites, entender lógica de programação e sonhando com projetos ainda maiores.</p>
+
+        <h2>🎮 Meus Jogos Favoritos</h2>
+        <p>Gosto especialmente de jogos que me desafiem e me façam mergulhar em outros mundos. Os meus estilos favoritos são <span class="destaque">ação, RPG e mundo aberto</span>. Alguns títulos que eu gosto muito são:</p>
+        <ul>
+            <li><strong>The Witcher 3</strong> – pela história rica e imersiva</li>
+            <li><strong>Red Dead Redemption 2</strong> – pelo realismo e narrativa cinematográfica</li>
+            <li><strong>Elden Ring</strong> – pelos combates intensos e mundo misterioso</li>
+            <li><strong>Assassin’s Creed</strong> – principalmente as versões mais históricas como Odyssey e Valhalla</li>
+            <li><strong>GTA V</strong> – pela liberdade total de explorar e criar caos</li>
+        </ul>
+
+        <h2>📺 Séries e Filmes que Me Inspiram</h2>
+        <p>Gosto muito de assistir <span class="destaque">séries e filmes</span> que me façam pensar ou que tenham ação envolvente. Alguns dos meus favoritos:</p>
+        <ul>
+            <li><strong>Breaking Bad</strong> – pela transformação dos personagens</li>
+            <li><strong>Stranger Things</strong> – por misturar aventura, amizade e o sobrenatural</li>
+            <li><strong>Peaky Blinders</strong> – com aquela vibe sombria e inteligente</li>
+            <li><strong>Matrix</strong> – que me fez pensar diferente sobre o mundo</li>
+            <li><strong>Homem-Aranha: Sem Volta Para Casa</strong> – porque sim, eu sou fã de heróis também 🕸️</li>
+        </ul>
+
+        <h2>🌟 Interesses e Sonhos</h2>
+        <p>Meus interesses vão além dos games e das séries. Eu gosto de:</p>
+        <ul>
+            <li>Aprender novas linguagens de programação</li>
+            <li>Explorar inteligência artificial e automação</li>
+            <li>Criar projetos criativos e funcionais na web</li>
+            <li>Trabalhar um dia com desenvolvimento de jogos ou apps úteis</li>
+            <li>Conhecer novas culturas, especialmente as orientais (amo anime e música japonesa!)</li>
+        </ul>
+
+        <p>Meu objetivo é continuar evoluindo como pessoa e como profissional, transformando o que aprendo em algo útil e divertido. Quem sabe um dia você jogue algo que eu ajudei a criar? 😄</p>
+
+        <p>Obrigado por ler até aqui! Se quiser saber mais, fique à vontade para me chamar. E nunca se esqueça: <em>o código do sucesso é feito de esforço, paixão e criatividade</em>.</p>
+    
+        <footer class="fade-in">
+            <p style="margin-top: 8px; color: #999;">
+                Criado por Youssef Jadallah • 2025 ©
+            </p>
+            <p>
+                <a href="index.html" style="color: #a3877a; text-decoration: none; font-weight: bold;">
+                    ← Voltar para a página inicial
+                </a>
+            </p>
+        </footer>
+    </div>
+
+    
+
+</body>
+</html>
