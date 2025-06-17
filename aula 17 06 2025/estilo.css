@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+.conteudo1{
+    background-color: aqua;
+    
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo2{
+    background-color: blueviolet;
+}
+.interna1{
+    background-color: brown;
+    width: 300px;
+}
+.interna2{
+    background-color: rgb(81, 133, 133);
+    width: 300px;
+}
