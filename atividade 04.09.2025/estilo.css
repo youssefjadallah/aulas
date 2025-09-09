@@ -1,81 +1,80 @@
-.imagem{
-margin-top: 50px;
-width: 150px;
-border-radius: 50%;
+.imagem {
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 50%;
 }
-.tudo{
-display: flex;
-flex-direction: column;
-width: 100%;
-text-align: center;
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
 }
-.itens{
+
+.itens {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-}
-.whats{
-    border-radius: 4px;
-    width: 400px;
-    align-content: center;
-    height: 50px;
-    background-color: rgb(1, 119, 54);
-    color: aliceblue;
-}
-.tele{
-    border-radius: 4px;
-    width: 400px;
-    align-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: rgb(11, 100, 173);
-    color: aliceblue;
-}
-.twitter{
-    border-radius: 4px;
-    width: 400px;
-    align-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: rgb(0, 178, 233);
-    color: aliceblue;
-}
-.insta{
-    border-radius: 4px;
-    width: 400px;
-    align-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: rgb(209, 137, 3);
-    color: aliceblue;
-}
-.you{
-    border-radius: 4px;
-    width: 400px;
-    align-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: rgb(255, 63, 5);
-    color: aliceblue;
-}
-.link{
-    border-radius: 4px;
-    width: 400px;
-    align-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: rgb(1, 119, 54);
-    color: aliceblue;
-}
-.itens{
     align-items: center;
 }
-.nome{
-    color: blueviolet;
+
+.whats, .tele, .twitter, .insta, .you, .link {
+    border-radius: 4px;
+    width: 400px;
+    height: 50px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    padding-left: 10px;
+    background-color: #f1f1f1;
 }
-.inte{
-    flex-direction: row;
-    
+
+.whats {
+    background-color: rgb(1, 119, 54);
+}
+
+.tele {
+    background-color: rgb(11, 100, 173);
+}
+
+.twitter {
+    background-color: rgb(0, 178, 233);
+}
+
+.insta {
+    background-color: rgb(209, 137, 3);
+}
+
+.you {
+    background-color: rgb(255, 63, 5);
+}
+
+.link {
+    background-color: rgb(4, 104, 134);
+}
+
+.nome {
+    color: blueviolet;
+}
+
+.inte {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: -25px; /* Espaço entre o ícone e o nome */
+}
+
+.platform-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    flex-grow: 1; /* Faz o texto se expandir para ocupar o espaço restante */
 }
