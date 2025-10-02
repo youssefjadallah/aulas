@@ -17,7 +17,8 @@ devem gerenciar: taxa de aparecimento de um pokemão, bem como dificuldades de c
 	a) Gerar pokemão - Deve gerar um pokemão normal em 80% da vezes, em 15% um raro e em 5% um lendário. Ao 'gerar pokemão', deve imprimir na tela seu nome, tipo 
     (normal, lendário ou raro).
 	b) Taxas de captura - Ao escolher essa opção, deve imprimir na tela a chance de captura do pokemão atual dependendo do tipo de item usado. 
-    Existem 2 tipos de items, normais e raros. Itens normais multiplicam a chance de captura por 1.0 para pokemãos do tipo normal e raro e 0.8 para pokemãos lendários. 
+    Existem 2 tipos de items, normais e raros. Itens normais multiplicam a chance de captura por 1.0 para pokemãos do tipo normal e raro e 0.8 
+	para pokemãos lendários. 
     Itens raros multiplicam a chance de captura por 2.0 para pokemãos normais e 1.2 para lendários.
 	c) Histórico de pokemãos gerados - devem imprimir os pokemãos gerados até o momento, armazenando-os em um array.
 	e) Encerrar
